@@ -1,0 +1,127 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Centering the converter */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4e4ba;
+}
+
+/* Container styling */
+.container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Heading */
+.container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Form section */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.amount p,
+.from p,
+.to p {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Input styling */
+form input {
+  width: 100%;
+  height: 3rem;
+  border: 1px solid lightgray;
+  border-radius: 0.75rem;
+  padding-left: 0.75rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+/* Dropdown section */
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Select box styling */
+.select-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  background-color: #f9f9f9;
+}
+
+.select-container img {
+  width: 2rem;
+  height: auto;
+}
+
+.select-container select {
+  font-size: 1rem;
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Swap icon */
+.dropdown i {
+  font-size: 1.5rem;
+  color: #555;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.dropdown i:hover {
+  transform: rotate(90deg);
+}
+
+/* Message area */
+.msg {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Button styling */
+form button {
+  height: 3rem;
+  background-color: #af4d98;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #932a7e;
+}
